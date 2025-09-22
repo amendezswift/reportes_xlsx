@@ -1,18 +1,23 @@
 <odoo>
-  <record id="wizard_libro_compras_view" model="ir.ui.view">
-    <field name="name">purchase.report.wizard.form</field>
-    <field name="model">purchase.report.wizard</field>
-    <field name="arch" type="xml">
-      <form string="Libro de compras">
-        <group>
-          <field name="fecha_inicial" />
-          <field name="fecha_final" />
-        </group>
-        <footer>
-          <button string="Generar reporte" type="object" name="generar_reporte" class="btn-primary" />
-          <button string="Cerrar" class="btn-secondary" special="cancel" />
-        </footer>
-      </form>
-    </field>
-  </record>
+    <record id="wizard_libro_compras_view" model="ir.ui.view">
+        <field name="name">purchase.report.wizard.form</field>
+        <field name="model">purchase.report.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Libro de compras">
+                <group>
+                    <field name="fecha_inicial"/>
+                    <field name="fecha_final"/>
+                </group>
+                <footer>
+                    <button
+                        string="Generar reporte"
+                        type="object"
+                        name="generar_reporte"
+                        class="btn-primary"
+                    />
+                    <button string="Cerrar" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+        </field>
+    </record>
 </odoo>

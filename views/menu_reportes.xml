@@ -1,18 +1,21 @@
 <odoo>
-  <menuitem id="menu_contenedor_reportes"
-    name="Reportes personalizados"
-    parent="account.menu_finance_reports"
-    sequence="10" />
-  <menuitem id="menu_libros_reportes"
-    name="Libro de ventas"
-    parent="menu_contenedor_reportes"
-    action="action_wizard_libro_ventas" />
-  <menuitem id="menu_libro_compras"
-    name="Libro de compras"
-    parent="menu_contenedor_reportes"
-    action="action_wizard_libro_compras" />
-  <!-- <menuitem id="menu_reporte_kardex"
-    name="Kardex"
-    parent="menu_contenedor_reportes"
-    action="action_wizard_reporte_kardex" /> -->
+    <menuitem
+        id="menu_contenedor_reportes"
+        name="Reportes personalizados"
+        parent="account.menu_finance_reports"
+        sequence="10"
+    />
+    <menuitem
+        id="menu_libro_ventas"
+        name="Libro de ventas"
+        parent="menu_contenedor_reportes"
+        action="action_wizard_libro_ventas"
+    />
+    <menuitem
+        id="menu_libro_compras"
+        name="Libro de compras"
+        parent="menu_contenedor_reportes"
+        action="action_wizard_libro_compras"
+    />
+
 </odoo>

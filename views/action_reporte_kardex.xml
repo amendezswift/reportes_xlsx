@@ -1,9 +1,9 @@
 <odoo>
-  <record id="action_wizard_reporte_kardex" model="ir.actions.act_window">
-    <field name="name">Kardex</field>
-    <field name="res_model">kardex.report.wizard</field>
-    <field name="view_mode">form</field>
-    <field name="view_id" ref="wizard_reporte_kardex_view" />
-    <field name="target">new</field>
-  </record>
+    <record id="action_wizard_reporte_kardex" model="ir.actions.act_window">
+        <field name="name">Kardex</field>
+        <field name="res_model">kardex.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="wizard_reporte_kardex_view"/>
+        <field name="target">new</field>
+    </record>
 </odoo>

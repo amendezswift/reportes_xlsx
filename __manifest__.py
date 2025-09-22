@@ -1,7 +1,12 @@
 {
-    "name": "Reportería en Excel - Swift Solutions",
-    "version": "17.0.0.0.1",
-    "depends": ["base", "web", "sale"],
+    "name": "Excel Reporting - Swift Solutions",
+    "summary": "Custom purchase, sales, and stock Excel reports.",
+    "version": "19.0.1.0.0",
+    "author": "Swift Solutions",
+    "website": "",
+    "category": "Reporting",
+    "license": "LGPL-3",
+    "depends": ["base", "web", "account", "stock"],
     "data": [
         "security/ir.model.access.csv",
         "views/wizard_libro_ventas.xml",
@@ -15,7 +20,7 @@
     "assets": {
         "web.assets_backend": [
             "reportes_xlsx/static/src/js/action_manager.js",
-        ]
+        ],
     },
     "installable": True,
     "application": False,

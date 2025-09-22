@@ -1,9 +1,9 @@
 <odoo>
-  <record id="action_wizard_libro_ventas" model="ir.actions.act_window">
-    <field name="name">Libro de ventas</field>
-    <field name="res_model">sale.report.wizard</field>
-    <field name="view_mode">form</field>
-    <field name="view_id" ref="wizard_libro_ventas_view" />
-    <field name="target">new</field>
-  </record>
+    <record id="action_wizard_libro_ventas" model="ir.actions.act_window">
+        <field name="name">Libro de ventas</field>
+        <field name="res_model">sale.report.wizard</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="wizard_libro_ventas_view"/>
+        <field name="target">new</field>
+    </record>
 </odoo>

@@ -1,0 +1,18 @@
+<odoo>
+  <record id="wizard_libro_ventas_view" model="ir.ui.view">
+    <field name="name">sale.report.wizard.form</field>
+    <field name="model">sale.report.wizard</field>
+    <field name="arch" type="xml">
+      <form string="Libro de ventas">
+        <group>
+          <field name="fecha_inicial" />
+          <field name="fecha_final" />
+        </group>
+        <footer>
+          <button string="Generar reporte" type="object" name="generar_reporte" class="btn-primary" />
+          <button string="Cerrar" class="btn-secondary" special="cancel" />
+        </footer>
+      </form>
+    </field>
+  </record>
+</odoo>

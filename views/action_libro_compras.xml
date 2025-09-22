@@ -1,0 +1,9 @@
+<odoo>
+  <record id="action_wizard_libro_compras" model="ir.actions.act_window">
+    <field name="name">Libro de compras</field>
+    <field name="res_model">purchase.report.wizard</field>
+    <field name="view_mode">form</field>
+    <field name="view_id" ref="wizard_libro_compras_view" />
+    <field name="target">new</field>
+  </record>
+</odoo>

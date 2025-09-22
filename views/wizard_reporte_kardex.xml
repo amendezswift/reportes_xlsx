@@ -1,0 +1,29 @@
+<odoo>
+  <record id="wizard_reporte_kardex_view" model="ir.ui.view">
+    <field name="name">kardex.report.wizard.form</field>
+    <field name="model">kardex.report.wizard</field>
+    <field name="arch" type="xml">
+      <form string="Kardex">
+        <group string="Periodo">
+          <group>
+            <field name="fecha_inicial" />
+            <field name="fecha_final" />
+          </group>
+        </group>
+        <group string="Opciones">
+          <group>
+            <field name="empresa" options="{'no_create_edit': True, 'no_create': True}" />
+            <field name="almacen" options="{'no_create_edit': True, 'no_create': True}" />
+            <field name="ubicaciones_domain" invisible="1" />
+            <field name="ubicacion" options="{'no_create_edit': True, 'no_create': True}"
+              invisible="not almacen" domain="ubicaciones_domain" />
+          </group>
+        </group>
+        <footer>
+          <button string="Generar reporte" type="object" name="generar_reporte" class="btn-primary" />
+          <button string="Cerrar" class="btn-secondary" special="cancel" />
+        </footer>
+      </form>
+    </field>
+  </record>
+</odoo>

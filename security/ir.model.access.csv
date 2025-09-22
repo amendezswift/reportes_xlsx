@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_sale_report_wizard,sale.report.wizard,model_sale_report_wizard,,1,1,1,1
+access_purchase_report_wizard,purchase.report.wizard,model_purchase_report_wizard,,1,1,1,1
+access_kardex_report_wizard,kardex.report.wizard,model_kardex_report_wizard,,1,1,1,1
